@@ -141,16 +141,7 @@ Turn windows features on and off
     | `CMDER_ROOT` | `[appdrv]/Cmder`                          |
     | `ConEmuDir`  | `[cmder_root]\vendor\conemu-maximus5`     |
     | `PATH`       | add `[CMDER_ROOT]` and `[CMDER_ROOT]\bin` |
-  - Aliases :
-    - `wrkspc=cd /d %WORKSPACE_DIR%`
-    - `drv-c=cd /d C:\`
-    - `drv-e=cd /d E:\`
-    - `drv-f=cd /d F:\`
-    - `drv-g=cd /d G:\`
-    - `sysdrv=cd /d C:\`
-    - `mscdrv=cd /d E:\`
-    - `dlsdrv=cd /d F:\`
-    - `appdrv=cd /d G:\`
+  - **Aliases** : add aliases from [user_aliases.cmd](user_aliases.cmd)
   - **Theme** : Dracula
 
 - Command Prompt

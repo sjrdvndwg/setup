@@ -1,0 +1,9 @@
+wrkspc=cd /d %WORKSPACE_DIR%
+drv-c=cd /d C:\
+drv-e=cd /d E:\
+drv-f=cd /d F:\
+drv-g=cd /d G:\
+sysdrv=cd /d C:\
+mscdrv=cd /d E:\
+dlsdrv=cd /d F:\
+appdrv=cd /d G:\
