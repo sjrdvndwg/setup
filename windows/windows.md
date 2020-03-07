@@ -128,7 +128,7 @@ Turn windows features on and off
     - Tab width : 4
     - Render Whitespace : Boundry
     - Terminal : Cmder
-  
+
 ```json
 "terminal.integrated.shell.windows": "cmd.exe",
 "terminal.integrated.shellArgs.windows": [
@@ -152,3 +152,13 @@ Turn windows features on and off
     - `dlsdrv=cd /d F:\`
     - `appdrv=cd /d G:\`
   - **Theme** : Dracula
+
+- Command Prompt
+  - Color scheme : One Half Dark
+    - ColorTool
+  - Cmder shell
+    - **Launch script** : [cmdr.bat](cmdr.bat)
+    - **Add to `AutoRun`**
+      - Add a new `REG_SZ` key to the `HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor` address.
+      - Name it `AutoRun` (Case Sensitive)
+      - Set the value to `cmder.bat`
