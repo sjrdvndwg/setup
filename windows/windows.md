@@ -127,20 +127,20 @@ Turn windows features on and off
     - Format on save : True
     - Tab width : 4
     - Render Whitespace : Boundry
-    - Terminal : Cmder
-
-```json
-"terminal.integrated.shell.windows": "cmd.exe",
-"terminal.integrated.shellArgs.windows": [
-    "/k",
-    "%CMDER_ROOT%/vendor/bin/vscode_init.cmd"]
-```
+    - Integrated Terminal : Cmder
+      - Add the settings from [cmder_vscode.json](cmder_vscode.json) to your user settings
 
 ### Terminal
 
 - Cmder
-  - **Install Directory** : Dedicated Apps Drive
   - **Context Menu Integration** : Run `cmder /REGISTER ALL`
+  - **Start Menu folder** : Place a shortcut to cmder in `%APPDATA%\Microsoft\Windows\Start Menu\Programs\Cmder`
+  - Environment Variables :
+    | Variable     | Value                                     |
+    | ------------ | ----------------------------------------- |
+    | `CMDER_ROOT` | `[appdrv]/Cmder`                          |
+    | `ConEmuDir`  | `[cmder_root]\vendor\conemu-maximus5`     |
+    | `PATH`       | add `[CMDER_ROOT]` and `[CMDER_ROOT]\bin` |
   - Aliases :
     - `wrkspc=cd /d %WORKSPACE_DIR%`
     - `drv-c=cd /d C:\`
@@ -154,11 +154,11 @@ Turn windows features on and off
   - **Theme** : Dracula
 
 - Command Prompt
-  - Color scheme : One Half Dark
+  - **Color scheme** : One Half Dark
     - ColorTool
   - Cmder shell
-    - **Launch script** : [cmdr.bat](cmdr.bat)
-    - **Add to `AutoRun`**
+    - **Launch script** : Place [cmdr.bat](cmdr.bat) in the Cmder installation directory
+    - Add to `AutoRun`
       - Add a new `REG_SZ` key to the `HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor` address.
       - Name it `AutoRun` (Case Sensitive)
       - Set the value to `cmder.bat`
