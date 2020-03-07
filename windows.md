@@ -66,6 +66,10 @@ Windows settings app
 
 ### Update & Security
 
+#### Updates
+
+- Check for updates
+
 #### For developers
 
 - **Use developer features** : Developer Mode
