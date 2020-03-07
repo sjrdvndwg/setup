@@ -83,3 +83,47 @@ Turn windows features on and off
 - Virtual Machine Platform : On
 - Windows Sandbox : On
 - Windows Subsystem for Linux
+
+## Applications
+
+### Web Browser
+
+- Google Chrome
+  - extensions
+    - uBlock Origin
+    - Windows Defender Browser Protection
+  - Settings
+    - **Show home button** : Disabled
+    - **On startup** : Continue where you left off
+    - **Download Location** : Dedicated HDD
+
+### Text Editor
+
+- VS Code
+  - Extensions
+    - Auto rename tag
+    - Better comments
+    - Bracket pair colorizer
+    - CSS Peek
+    - Eslint
+    - Gi
+    - Git indicators
+    - Gitlens
+    - IntelliSense for CSS class names in HTML
+    - Live sass compiler
+    - Live server
+    - Markdown All in One
+    - Markdownlint
+    - Path intellisense
+    - Prettier
+    - Remote WSL
+    - Sass
+    - Visual Studio IntelliCode
+  - Theme
+    - **Color** : Monokai Pro
+    - **Icons** : Monokai Pro
+    - **Font** : Fira Code, Consolas, 'Courier New', monospace
+  - Settings
+    - Format on save : True
+    - Tab width : 4
+    - Render Whitespace : Boundry
