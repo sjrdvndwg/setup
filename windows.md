@@ -127,3 +127,28 @@ Turn windows features on and off
     - Format on save : True
     - Tab width : 4
     - Render Whitespace : Boundry
+    - Terminal : Cmder
+  
+```json
+"terminal.integrated.shell.windows": "cmd.exe",
+"terminal.integrated.shellArgs.windows": [
+    "/k",
+    "%CMDER_ROOT%/vendor/bin/vscode_init.cmd"]
+```
+
+### Terminal
+
+- Cmder
+  - **Install Directory** : Dedicated Apps Drive
+  - **Context Menu Integration** : Run `cmder /REGISTER ALL`
+  - Aliases :
+    - `wrkspc=cd /d %WORKSPACE_DIR%`
+    - `drv-c=cd /d C:\`
+    - `drv-e=cd /d E:\`
+    - `drv-f=cd /d F:\`
+    - `drv-g=cd /d G:\`
+    - `sysdrv=cd /d C:\`
+    - `mscdrv=cd /d E:\`
+    - `dlsdrv=cd /d F:\`
+    - `appdrv=cd /d G:\`
+  - **Theme** : Dracula
