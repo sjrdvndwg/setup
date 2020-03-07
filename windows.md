@@ -2,7 +2,7 @@
 
 Currently based on Windows 10 1909 Build 18363
 
-## Settings
+## Windows Settings
 
 Windows settings app
 
@@ -69,3 +69,13 @@ Windows settings app
 #### For developers
 
 - **Use developer features** : Developer Mode
+
+## Windows Features
+
+Turn windows features on and off
+
+- Hyper-V : On
+- Internet Explorer 11 : Off
+- Virtual Machine Platform : On
+- Windows Sandbox : On
+- Windows Subsystem for Linux
