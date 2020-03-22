@@ -1,0 +1,10 @@
+{
+    // Make changes here to the Cmder profile
+    "guid": "{9695D2D6-65E7-4DB5-9AE9-C857416E9ABA}",
+    "name": "Cmder",
+    "commandline": "cmd.exe /k cmdr.bat",
+    "icon": "%cmder_root%/icons/cmder.ico",
+    "hidden": false,
+    "startingDirectory": "%USERPROFILE%",
+    "closeOnExit": "graceful"
+}
